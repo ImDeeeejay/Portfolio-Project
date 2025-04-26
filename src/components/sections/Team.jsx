@@ -7,6 +7,10 @@ import {
 } 
 from "@fortawesome/free-brands-svg-icons";
 import { useEffect } from "react";
+import deejayImg from "../../assets/deejay.jpg";
+import gwayneImg from "../../assets/gwayne.jpg";
+import mianeImg from "../../assets/miane.jpg";
+import ronImg from "../../assets/ron.jpg";
 
 export const Team = () => {
   const services = [
@@ -56,7 +60,7 @@ export const Team = () => {
           <div className="bg-gradient-to-t from-pink-500 to-gray-900 rounded-xl p-15 max-w-5xl w-full flex flex-col md:flex-row items-start gap-10">
             <div className="flex-shrink-0 w-full md:w-1/3">
               <img
-                src="src/assets/miane.jpg"
+                src={mianeImg}
                 alt="Profile"
                 className="rounded-lg w-full h-89 object-cover transform hover:scale-105 transition-transform duration-300"
               />
@@ -241,7 +245,7 @@ export const Team = () => {
           <div className="bg-gradient-to-t from-blue-500 to-gray-900 rounded-xl p-15 max-w-5xl w-full flex flex-col md:flex-row items-start gap-10">
             <div className="flex-shrink-0 w-full md:w-1/3">
               <img
-                src="src/assets/deejay.jpg"
+                src={deejayImg}
                 alt="Profile"
                 className="rounded-lg w-full h-89 object-cover transform hover:scale-105 transition-transform duration-300"
               />
@@ -440,7 +444,7 @@ export const Team = () => {
           <div className="bg-gradient-to-t from-red-500 to-gray-900 rounded-xl p-15 max-w-5xl w-full flex flex-col md:flex-row items-start gap-10">
             <div className="flex-shrink-0 w-full md:w-1/3">
               <img
-                src="src/assets/gwayne.jpg"
+                src={gwayneImg}
                 alt="Profile"
                 className="rounded-lg w-full h-89 object-cover transform hover:scale-105 transition-transform duration-300"
               />
@@ -625,7 +629,7 @@ export const Team = () => {
           <div className="bg-gradient-to-t from-green-500 to-gray-900 rounded-xl p-15 max-w-5xl w-full flex flex-col md:flex-row items-start gap-10">
             <div className="flex-shrink-0 w-full md:w-1/3">
               <img
-                src="src/assets/ron.jpg"
+                src={ronImg}
                 alt="Profile"
                 className="rounded-lg w-full h-89 object-cover transform hover:scale-105 transition-transform duration-300"
               />
