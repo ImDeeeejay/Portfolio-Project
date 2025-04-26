@@ -1,7 +1,7 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import deejayImg from "../../assets/deejay.jpg";
 import gwayneImg from "../../assets/gwayne.jpg";
-import mianeImg from "../../assets/Miane.jpg";
+import mianeImg from "../../assets/miane.jpg";
 import ronImg from "../../assets/ron.jpg";
 import creativeImg from "../../assets/Creativity.jpg";
 import ExpertiseImg from "../../assets/Expertise.jpg";
